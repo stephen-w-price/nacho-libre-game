@@ -1,0 +1,181 @@
+* {
+	font-family: "American Typewriter", sans-serif;
+}
+
+button {
+	visibility: visible;
+	border-radius: 14px;
+	font-size: 18px;
+	width: 220px;
+	height: 50px;
+	background-color:rgb(101,207,229);
+	color: rgb(184,23,15);
+}
+
+h2 {
+	text-align: center;
+	font-size: 42px;
+}
+/*text class*/
+.header {
+	color: rgb(184,23,15);
+	text-align: center;
+}
+
+/*button classes */
+.fightEat {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.btnStyle {
+	padding-bottom: 70px;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+.buttonToggle:hover {
+	background-color: rgb(184,23,15);
+	color: rgb(101,207,229);
+}
+
+/*wrestler classes */
+.wrestler {
+	margin-bottom: 175px;
+	font-size: 44px;
+	border-radius: 1px;
+}
+
+.photoProfile {
+	border-radius: 50%;
+}
+
+/*flex classes */
+.info {
+	width: 350px;
+	border: 1px;
+	border-color: black;
+}
+
+.healthBar {
+	margin-top: 20px;
+	font: 18pt;
+	font-weight: bold;
+}
+
+.hpBorder {
+	width: 210px;
+	height: 30px;
+	border: 3px solid;
+	border-color: black;
+}
+
+.hpBarNacho  {
+	width: 210px;
+	background-color: rgb(101,207,229);
+	height: 30px;
+}
+
+.hpBarRamses {
+	width: 210px;
+	background-color: rgb(255,202,120);
+	height: 30px;
+	justify-content: flex-end;
+	display: flex;
+}
+
+/*button id's*/
+
+#start-game {
+	position: center;
+}
+
+#eatChips {
+	padding-bottom: 190px;
+}
+
+#front-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#borrowSweats {
+	padding-bottom: 90px;
+}
+
+/*wrestler id's*/
+#Nacho  {
+	font-size: 72px;
+	color: rgb(184,23,15);
+}
+
+#Nacho:hover  {
+	font-size: 72px;
+	color: rgb(101,207,229);
+}
+#vs {
+	font-size: 72px;
+	margin-top: 300px;
+}
+
+#Ramses {
+	font-size: 72px;
+	color: rgb(62, 34, 20);
+}
+
+#Ramses:hover {
+	font-size: 72px;
+/*	border: 1px solid;*/
+	color: rgb(255,202,120);
+}
+
+/*div id's*/
+#topFlex {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 525px;
+}
+#middleFlex {
+	display: flex;
+/*	border-color: black;
+	border: 1px solid;*/
+	align-items: flex-start;
+	justify-content: center;
+	height: 30px;
+}
+
+#bottomFlex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 90px;
+}
+
+#logParagraph {
+	font-size: 36px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 350px;
+	margin-right: 350px;
+	text-align:center;
+}
+
+#bottomMiddleRow {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 90px;
+}
+
+#battleLog {
+	display: flex;
+	flex-direction: row;
+}
